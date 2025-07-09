@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import "tailwindcss";
+
+.dbg {
+  border: 2px dotted red;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #f9fafb;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 0;
+  }
+}
